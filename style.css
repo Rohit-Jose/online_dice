@@ -1,0 +1,88 @@
+*{margin: 0;}
+body{
+    background-color: rgba(122, 245, 65, 0.885);
+    position: relative;
+}
+h1{
+    background-color: rgb(1, 98, 1);
+    color: white;
+    padding: 35px 0 35px 0;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.b{
+    width: 350px;
+    height: 350px;
+    padding: 55px;
+    border-radius: 40px;
+    border-style: none;
+    background-color: rgb(1, 98, 1) !important;
+    color: white;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-size: 50px;
+    line-height: 75px;
+}
+.b:hover{
+    background-color: rgba(4, 151, 45, 0.907);
+    color:yellow;
+    transition: all 400ms ease-in;
+}
+
+.hide{
+    display: none;
+}
+
+.circle{
+    background-color: yellow;
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+}
+
+.centre{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.tl{
+    position: absolute;
+    top:15px;
+    left:15px;
+}
+
+.br{
+    position: absolute;
+    bottom:15px;
+    right:15px;
+}
+
+.tr{
+    position: absolute;
+    top:15px;
+    right:15px;
+}
+
+.bl{
+    position: absolute;
+    bottom:15px;
+    left:15px;
+}
+
+.tc{
+    position: absolute;
+    top:15px;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+.bc{
+    position: absolute;
+    bottom:15px;
+    left: 50%;
+    transform: translate(-50%,0);
+}
